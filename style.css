@@ -1,0 +1,23 @@
+#time, #money, #dakoku, #message {
+    font-size: 30px;
+    margin: 20px;
+}
+
+#money {
+    color: #f32d2d;
+}
+
+#message {
+    font-size: 15px;
+    color: #141615;
+}
+
+#dakoku {
+    background: #f6f6f6;
+    box-shadow:  6px 6px 12px #eaeaea, -6px -6px 12px #ffffff;
+    width: 140px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+}
