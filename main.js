@@ -39,6 +39,7 @@
                 label += `終了しました(${fix_digit(cost / 60)}時間、${fix_digit(cost)}円)`
             }
 
+            label += ' https://jpnykw.github.io/twi_min/'
             open(`https://twitter.com/intent/tweet?text=${label}`)
         })
 
