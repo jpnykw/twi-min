@@ -36,7 +36,7 @@
                 const total = fix_digit((cost + Number(localStorage.total) / 100))
                 localStorage.total = total
 
-                label += `終了しました(${fix_digit(cost / 60)}時間、${fix_digit(cost)}円)`
+                label += `終了しました(${fix_digit(cost / 3600)}時間、${fix_digit(cost)}円)`
             }
 
             label += ' https://jpnykw.github.io/twi_min/'
