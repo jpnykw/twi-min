@@ -1,7 +1,7 @@
 (() => {
     const now = () => new Date()
 
-    const fix_digit = num => Math.floor(num * 100 / 100)
+    const fix_digit = num => Math.floor(num * 100) / 100
 
     const reset = () => {
         localStorage.time_stamp = now().getTime()
